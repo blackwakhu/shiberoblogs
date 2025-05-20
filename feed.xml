@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>shiberoblogs</title>
+    <link href="https://blackwakhu.github.io/shiberoblogs/feed.xml" rel="self" />
+    <link href="https://blackwakhu.github.io/shiberoblogs" />
+    <updated>2025-05-20T09:05:37+03:00</updated>
+    <author>
+        <name>Derrick Shibero Wakhu</name>
+    </author>
+    <id>https://blackwakhu.github.io/shiberoblogs</id>
+
+    <entry>
+        <title>My love of Fedora Linux</title>
+        <author>
+            <name>Derrick Shibero Wakhu</name>
+        </author>
+        <link href="https://blackwakhu.github.io/shiberoblogs/my-love-of-fedora-linux.html"/>
+        <id>https://blackwakhu.github.io/shiberoblogs/my-love-of-fedora-linux.html</id>
+        <media:content url="https://blackwakhu.github.io/shiberoblogs/media/posts/1/Screenshot-From-2025-05-20-08-34-05.png" medium="image" />
+            <category term="operating systems"/>
+            <category term="Linux"/>
+            <category term="Fedora Linux"/>
+
+        <updated>2025-05-19T15:48:45+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blackwakhu.github.io/shiberoblogs/media/posts/1/Screenshot-From-2025-05-20-08-34-05.png" alt="My fedora desktop" />
+                    The linux operating system is one of the most complicated operating system in terms of the number of distributions(distros) it has. This is as opposed to some of great competitors, Microsoft and Apple which have only Windows and Mac os respectively. For any one trying&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blackwakhu.github.io/shiberoblogs/media/posts/1/Screenshot-From-2025-05-20-08-34-05.png" class="type:primaryImage" alt="My fedora desktop" /></p>
+                
+  <p>
+    The linux operating system is one of the most complicated operating system in terms of the number of distributions(distros) it has. This is as opposed to some of great competitors, Microsoft and Apple which have only Windows and Mac os respectively. For any one trying linux for the first time, it is usually hard when it comes to choosing the first one. For me it was Ubuntu. But I have evolved after doing some soul searching while distro hopping.
+  </p>
+
+  <p>
+    Fedora Linux is one of the many distros that are associated with the linux operating system. It is associated with the Red Hat family distro. This are distros that use the dnf package manager and are based on the popular Red Hat enterprise Linux that is popular with the organizations. Fedora linux follows a release schedule where each version is released twice a year. As of writing it is Fedora 42.&nbsp;
+  </p>
+
+  <p>
+    It is the distro that I currently use so I am familiar with it.&nbsp;
+  </p>
+
+    <h2 id="why-i-like-fedora">
+      Why I like fedora
+    </h2>
+
+  <p>
+    Honestly speaking Fedora Linux was not my first choice when I migrated from Windows. My first distro was Ubuntu. I had a time when I was distro hopping(term used by linux enthusiasts who are constantly installing and reinstalling different distros.) I am happy to say that I have used distros such as Ubuntu, Debian, Kali linux, Linux Mint, Pop Os, Manjaro Linux and Parrot OS.
+  </p>
+
+  <p>
+    <b>The simplicity of installation as opposed to other Linux distros.</b>&nbsp;Of all the linux distros I have ever installed, fedora was the simplest one to install. I got give it to the creators. The installer is user centered. The default installer is a GUI based. It provides only the required configurations needed. When there are errors, it makes it easier to for the user to install. While the calamares installer used by most distros makes it easier to install the respective distros, nothing comes to the easiness and fewer instructions used to install the other distros.
+  </p>
+
+  <p>
+    <b>The package manager. </b>The dnf package manager is perfectly robust containing many packages for the applications that can be installed. It also allows other package managers like snap and flatpak. This drastically increases the number of applications that can be installed.&nbsp;
+  </p>
+
+  <p>
+    <b>The terminal. </b>In fedora, while I am not sure about other distros, but in fedora if any command typed on it and the corresponding application not installed but available it searches its if it is available. If available it gives you a the option to install it.&nbsp;
+  </p>
+
+  <p>
+    <b>The community. </b>The distro has a large vibrant community on the internet. For most problems where I can't get the answer to I just have to open my browser and google. Most times somebody usually has encountered the issue and fixed it.&nbsp;
+  </p>
+
+  <p>
+    <b>The project team</b>. Many distros have their release cycles. For Fedora its twice a year. For someone who once had a debian systems and is anxious, the fact that the next system upgrade is definite makes me look up for the next while taking advantage of the existing one. For debian which is currently at 12, it is actually makes me more anxious worrying when the next update will be.&nbsp;
+  </p>
+
+    <h2 id="why-i-dont-like-it">
+      Why I don't like it
+    </h2>
+
+  <p>
+    <b>The politics</b>. Linux communities have a lot politics when it comes to the different distros. This is especially so damaging when starting. The point of contention with people and the red hat based distros is the commercial company of Red Hat. One of the reasons why I did not want to install it in the first place was the death of CentOs. Such overtures makes one insecure that maybe one day it may be Fedora.
+  </p>
+
+  <p>
+    <b>The windows based apps</b>. For most people, growing up we grew up in the windows ecosystem. This one affects all the linux distros. Applications such as the popular Microsoft office and visual studio, most games and proprietary software based by the adobe company cannot be used in windows. This is negative as some of this applications offer superior features and tools better than any linux based alternative can be able to offer. While applications like steam are trying to bridge that gap, I would have wished if they offered a native application for such.<br>
+  </p>
+
+    <h2 id="conclusion">
+      Conclusion
+    </h2>
+
+  <p>
+    In conclusion, getting into the linux community was one of my greatest adventures in the tech world. It allowed to feel in command of what I was doing and to learn more about how systems work. Hopefully for me I got to use Fedora and hope to be using it for years to come to learn more about it.&nbsp;
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
