@@ -11,6 +11,28 @@
     },
     "items": [
         {
+            "id": "https://blackwakhu.github.io/shiberoblogs/how-to-add-tailwind-css-to-a-vite-project.html",
+            "url": "https://blackwakhu.github.io/shiberoblogs/how-to-add-tailwind-css-to-a-vite-project.html",
+            "title": "How to add Tailwind CSS to a vite project",
+            "summary": "Tailwind CSS is a CSS framework that utilizes classes with CSS code that only represent a singular CSS style rule.&nbsp; The main advantage of it is that it allows a higher degree of freedom to the programmer.&nbsp;This is as compared to some frameworks like bootstrap&hellip;",
+            "content_html": "\n  <p>\n    Tailwind CSS is a CSS framework that utilizes classes with CSS code that only represent a singular CSS style rule.&nbsp;\n  </p>\n\n  <p>\n    The main advantage of it is that <b>it allows a higher degree of freedom to the programmer.</b>&nbsp;This is as compared to some frameworks like bootstrap that offer generic code for each element.&nbsp;The main drawback of Tailwind is the <b>use of many classes to achieve a single style </b>that could be achieved by a dedicated CSS rule. This results in large code that feel too big to debug.&nbsp;This results to HTML code that looks like the following \n  </p>\n<pre class=\"line-numbers  language-html\"><code>&lt;!doctype html&gt;\n&lt;html&gt;\n    &lt;head&gt;\n        &lt;meta charset=\"UTF-8\"&gt;  \n        &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;  \n        &lt;link href=\"/src/styles.css\" rel=\"stylesheet\"&gt;\n    &lt;/head&gt;\n    &lt;body&gt;  \n        &lt;h1 class=\"text-3xl font-bold underline\"&gt;    \n            Hello world!  \n        &lt;/h1&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n</code></pre>\n\n    <h2 id=\"how-to-start\">\n      How to start\n    </h2>\n\n  <p>\n    The following installation will be applicable with any framework installed using vite js. This include frameworks like Laravel, SvelteKit, React, Router, Nuxt and SolidJS.&nbsp;\n  </p>\n\n  <p>\n    1. Install tailwind css in the folder containing the project\n  </p>\n<pre class=\"line-numbers  language-bash\"><code>npm install tailwindcss @tailwindcss/vite</code></pre>\n\n  <p>\n    2. Configure the vite plugin by altering the vite.config.js by adding the following\n  </p>\n<pre class=\"line-numbers  language-javascript\"><code>import tailwindcss from '@tailwindcss/vite'\nexport default defineConfig({\n    plugins: [tailwindcss()],\n})</code></pre>\n\n  <p>\n    The following is how it will look like in react project\n  </p>\n<pre class=\"line-numbers  language-javascript\"><code>import { defineConfig } from 'vite'\nimport tailwindcss from '@tailwindcss/vite'\nimport react from '@vitejs/plugin-react'\n\n\nexport default defineConfig({\n  plugins: [\n        react(), \n        tailwindcss(),\n      ],\n})\n</code></pre>\n\n  <p>\n    3. Add the following on top of the css file\n  </p>\n<pre class=\"line-numbers  language-css\"><code>@import \"tailwindcss\";</code></pre>\n\n  <p>\n    4. Start using in your project. An example in a react project\n  </p>\n<pre class=\"line-numbers  language-jsx\"><code>&lt;div&gt;\n    &lt;h2 className=\"text-xl font-semibold text-gray-800 mb-4\"&gt;\n        Dashboard\n    &lt;/h2&gt;\n&lt;/div&gt;</code></pre>\n\n  <p>\n    \n  </p>",
+            "image": "https://blackwakhu.github.io/shiberoblogs/media/posts/2/Screenshot-2025-05-21-at-17-11-47-Installing-Tailwind-CSS-with-Vite-Tailwind-CSS.png",
+            "author": {
+                "name": "Derrick Shibero Wakhu"
+            },
+            "tags": [
+                   "Web Development",
+                   "ViteJS",
+                   "TailwindCSS",
+                   "Programming",
+                   "JavaScript",
+                   "Front-end",
+                   "CSS"
+            ],
+            "date_published": "2025-05-21T16:59:23+03:00",
+            "date_modified": "2025-05-21T18:53:20+03:00"
+        },
+        {
             "id": "https://blackwakhu.github.io/shiberoblogs/my-love-of-fedora-linux.html",
             "url": "https://blackwakhu.github.io/shiberoblogs/my-love-of-fedora-linux.html",
             "title": "My love of Fedora Linux",
@@ -26,7 +48,7 @@
                    "Fedora Linux"
             ],
             "date_published": "2025-05-19T15:48:45+03:00",
-            "date_modified": "2025-05-20T09:05:37+03:00"
+            "date_modified": "2025-05-21T17:02:29+03:00"
         }
     ]
 }

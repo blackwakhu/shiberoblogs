@@ -3,12 +3,118 @@
     <title>shiberoblogs</title>
     <link href="https://blackwakhu.github.io/shiberoblogs/feed.xml" rel="self" />
     <link href="https://blackwakhu.github.io/shiberoblogs" />
-    <updated>2025-05-20T09:05:37+03:00</updated>
+    <updated>2025-05-21T18:53:20+03:00</updated>
     <author>
         <name>Derrick Shibero Wakhu</name>
     </author>
     <id>https://blackwakhu.github.io/shiberoblogs</id>
 
+    <entry>
+        <title>How to add Tailwind CSS to a vite project</title>
+        <author>
+            <name>Derrick Shibero Wakhu</name>
+        </author>
+        <link href="https://blackwakhu.github.io/shiberoblogs/how-to-add-tailwind-css-to-a-vite-project.html"/>
+        <id>https://blackwakhu.github.io/shiberoblogs/how-to-add-tailwind-css-to-a-vite-project.html</id>
+        <media:content url="https://blackwakhu.github.io/shiberoblogs/media/posts/2/Screenshot-2025-05-21-at-17-11-47-Installing-Tailwind-CSS-with-Vite-Tailwind-CSS.png" medium="image" />
+            <category term="Web Development"/>
+            <category term="ViteJS"/>
+            <category term="TailwindCSS"/>
+            <category term="Programming"/>
+            <category term="JavaScript"/>
+            <category term="Front-end"/>
+            <category term="CSS"/>
+
+        <updated>2025-05-21T16:59:23+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blackwakhu.github.io/shiberoblogs/media/posts/2/Screenshot-2025-05-21-at-17-11-47-Installing-Tailwind-CSS-with-Vite-Tailwind-CSS.png" alt="" />
+                    Tailwind CSS is a CSS framework that utilizes classes with CSS code that only represent a singular CSS style rule.&nbsp; The main advantage of it is that it allows a higher degree of freedom to the programmer.&nbsp;This is as compared to some frameworks like bootstrap&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blackwakhu.github.io/shiberoblogs/media/posts/2/Screenshot-2025-05-21-at-17-11-47-Installing-Tailwind-CSS-with-Vite-Tailwind-CSS.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    Tailwind CSS is a CSS framework that utilizes classes with CSS code that only represent a singular CSS style rule.&nbsp;
+  </p>
+
+  <p>
+    The main advantage of it is that <b>it allows a higher degree of freedom to the programmer.</b>&nbsp;This is as compared to some frameworks like bootstrap that offer generic code for each element.&nbsp;The main drawback of Tailwind is the <b>use of many classes to achieve a single style </b>that could be achieved by a dedicated CSS rule. This results in large code that feel too big to debug.&nbsp;This results to HTML code that looks like the following 
+  </p>
+<pre class="line-numbers  language-html"><code>&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;  
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;  
+        &lt;link href="/src/styles.css" rel="stylesheet"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;  
+        &lt;h1 class="text-3xl font-bold underline"&gt;    
+            Hello world!  
+        &lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+    <h2 id="how-to-start">
+      How to start
+    </h2>
+
+  <p>
+    The following installation will be applicable with any framework installed using vite js. This include frameworks like Laravel, SvelteKit, React, Router, Nuxt and SolidJS.&nbsp;
+  </p>
+
+  <p>
+    1. Install tailwind css in the folder containing the project
+  </p>
+<pre class="line-numbers  language-bash"><code>npm install tailwindcss @tailwindcss/vite</code></pre>
+
+  <p>
+    2. Configure the vite plugin by altering the vite.config.js by adding the following
+  </p>
+<pre class="line-numbers  language-javascript"><code>import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+    plugins: [tailwindcss()],
+})</code></pre>
+
+  <p>
+    The following is how it will look like in react project
+  </p>
+<pre class="line-numbers  language-javascript"><code>import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react'
+
+
+export default defineConfig({
+  plugins: [
+        react(), 
+        tailwindcss(),
+      ],
+})
+</code></pre>
+
+  <p>
+    3. Add the following on top of the css file
+  </p>
+<pre class="line-numbers  language-css"><code>@import "tailwindcss";</code></pre>
+
+  <p>
+    4. Start using in your project. An example in a react project
+  </p>
+<pre class="line-numbers  language-jsx"><code>&lt;div&gt;
+    &lt;h2 className="text-xl font-semibold text-gray-800 mb-4"&gt;
+        Dashboard
+    &lt;/h2&gt;
+&lt;/div&gt;</code></pre>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>My love of Fedora Linux</title>
         <author>
