@@ -3,12 +3,74 @@
     <title>shiberoblogs</title>
     <link href="https://blackwakhu.github.io/shiberoblogs/feed.xml" rel="self" />
     <link href="https://blackwakhu.github.io/shiberoblogs" />
-    <updated>2025-05-28T11:54:38+03:00</updated>
+    <updated>2025-06-04T13:25:01+03:00</updated>
     <author>
         <name>Derrick Shibero Wakhu</name>
     </author>
     <id>https://blackwakhu.github.io/shiberoblogs</id>
 
+    <entry>
+        <title>How to change background image on hover in react and svelte using tailwindcss </title>
+        <author>
+            <name>Derrick Shibero Wakhu</name>
+        </author>
+        <link href="https://blackwakhu.github.io/shiberoblogs/how-to-display-a-hidden-item-on-hover-in-tailwindcss.html"/>
+        <id>https://blackwakhu.github.io/shiberoblogs/how-to-display-a-hidden-item-on-hover-in-tailwindcss.html</id>
+            <category term="Web Development"/>
+            <category term="TailwindCSS"/>
+            <category term="Svelte"/>
+            <category term="React js"/>
+            <category term="Programming"/>
+            <category term="JavaScript"/>
+            <category term="Front-end"/>
+            <category term="CSS"/>
+
+        <updated>2025-05-28T20:14:51+03:00</updated>
+            <summary>
+                <![CDATA[
+                    React React js is a very popular front-end library.&nbsp; import images from './assets/images.jpg' import red from './assets/red.jpg' function App() { return ( &lt;div&gt; &lt;div className="m-2 p-2 flex-col border-1"&gt; &lt;h1 className="font-bold text-center"&gt;Changing the background image on hover in react&lt;/h1&gt; &lt;div className='flex justify-center relative items-center m-10 w-100&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="react">
+      React
+    </h2>
+
+  <p>
+    React js is a very popular front-end library.&nbsp;
+  </p>
+<pre class="line-numbers  language-jsx"><code>import images from './assets/images.jpg'
+import red from './assets/red.jpg'
+
+function App() {
+  return (
+    &lt;div&gt;
+      &lt;div className="m-2 p-2 flex-col border-1"&gt;
+        &lt;h1 className="font-bold text-center"&gt;Changing the background image on hover in react&lt;/h1&gt;
+        &lt;div className='flex justify-center relative items-center m-10 w-100 h-100'&gt;
+          &lt;div className="group w-100 h-100 overflow-hidden rounded shadow"&gt;
+            &lt;img src={red} alt="images" className='absolute inset-0 w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0' /&gt;
+            &lt;img src={images} alt="red" className='absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100' /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  )
+}</code></pre>
+
+    <h2 id="svelte">
+      Svelte
+    </h2>
+
+  <p>
+    Svelte is a upcoming front-end library that is trying to compete against react
+  </p>
+<pre class="line-numbers  language-typescript"><code></code></pre>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Introduction to Bash Script</title>
         <author>
